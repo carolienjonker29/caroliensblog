@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'ckeditor', '~> 4.1'
+gem 'devise'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

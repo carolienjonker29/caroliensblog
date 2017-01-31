@@ -3,5 +3,6 @@
   <h5 class="text-center"><%= @post.created_at.strftime('%b %d, %Y') %></h5>
   <div><%= raw @post.body %></div>
   <div class="text-center"><%= link_to "Delete", post_path, method: :delete %></div>
-    <div class="text-center"><%= link_to "Edit", edit_post_path %></div>
+  <div class="text-center"><%= link_to "Edit", edit_post_path %></div>
+  <div class="text-center"><%= link_to "Back", posts_path %></div>
 </div>
